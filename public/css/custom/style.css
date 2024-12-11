@@ -1,0 +1,11 @@
+.responsive-bg {
+    background-size: cover; /* Gambar memenuhi elemen */
+    background-position: center; /* Gambar di tengah */
+    background-repeat: no-repeat; /* Tidak mengulangi gambar */
+}
+
+@media (max-width: 768px) {
+    .responsive-bg {
+        min-height: 100vh; /* Pastikan tingginya menyesuaikan layar ponsel */
+    }
+}
